@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ ! -d .git]; then
+  git init .
+  hub create
+fi
+
+git add .
+git commit -m "Automatic spec commit"
+
