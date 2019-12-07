@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Metrics/BlockLength
 describe Haiku do
   describe '.detected?' do
     subject { described_class.detected?(text) }
@@ -34,3 +35,4 @@ describe Haiku do
     context 'when not five syllables on third line'
   end
 end
+# rubocop:enable Metrics/BlockLength
