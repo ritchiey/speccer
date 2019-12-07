@@ -10,4 +10,4 @@ fi
 
 git add .
 git commit -m "Automatic spec commit"
-git push origin
+git push origin master
